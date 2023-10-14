@@ -1,9 +1,9 @@
-cat subdomains.py | python script.py -p
-echo "target.com" | python script.py -p
-python script.py -u https://target.com
-python script.py -f subdomains-file.txt
-python script.py -f subdomains-file.txt -o putput.txt
-python script.py -f subdomains-file.txt -o putput.txt --silent 
+cat subdomains.py | python paramine.py -p
+echo "target.com" | python paramine.py -p
+python paramine.py -u https://target.com
+python paramine.py -f subdomains-file.txt
+python paramine.py -f subdomains-file.txt -o putput.txt
+python paramine.py -f subdomains-file.txt -o putput.txt --silent 
 
 
 ----------------------------------------------------
